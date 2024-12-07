@@ -55,8 +55,8 @@
                                     <h1 class="anewpal ui heading size-headingmd">A new pal awaits</h1>
                                     <!-- <h2 class="anewpal_one ui heading size-headingmd">A new pal awaits</h2> -->
                                     <div class="columnadoptions">
-                                        <button  class="adoptions ui button blue_gray_560 size-sm fill round">Adoptions</button>
-                                        <button  class="adoptions ui button blue_gray_560 size-sm fill round">Donate</button>
+                                        <button onclick="window.location.href='{{ url_for('adopt') }}'"  class="adoptions ui button blue_gray_560 size-sm fill round">Adoptions</button>
+                                        <button onclick="window.location.href='{{ url_for('donation') }}'"  class="adoptions ui button blue_gray_560 size-sm fill round">Donate</button>
                                     </div>
                                 </div>
                             </div>
