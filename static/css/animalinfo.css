@@ -1,0 +1,36 @@
+.animal-info{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-self: center;
+
+}
+
+.columndescripti {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    gap: 30px;
+    /* align-self: flex-start; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    letter-spacing: 3.2px;
+    text-align: center;
+    align-self: stretch;
+    line-height: 40px;
+    /* align-items: flex-start; */
+    @media only screen and (max-width: 1050px) {
+    width: 100%;
+    }
+}
+
+.animal-image{
+    height: 30%;
+    width: 50%;
+    object-fit: contain;
+    justify-content: center;
+    margin-left: 25%;
+}

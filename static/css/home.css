@@ -1,0 +1,285 @@
+.adoptions {
+    color: #ffffff !important; 
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    letter-spacing: 2.8px;
+    font-size: 28px;
+    background-color: var(--blue_gray_500) !important;
+    height: 126px;
+    min-width: 344px;
+    margin-right: 900px;
+   
+    border-radius: 50px !important;
+    @media only screen and (max-width: 1050px) { 
+        font-size: 26px;
+    }
+    @media only screen and (max-width: 550px) {
+        font-size: 24px;
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+}
+
+.columnpawpaw {
+    gap: var(--space-xs); 
+    display: flex;
+    flex-direction: column;
+}
+
+.stackanewpal {
+    padding-left: 100px;
+    height: 634px;
+    position: relative;
+    @media only screen and (max-width: 1050px) { 
+        height: auto;
+    }
+}
+
+.column{
+    gap: var(--space-md);
+    display: flex;
+    width: 74%;
+    flex-direction: column;
+    /* margin-left: 5%;
+    margin-top:5%; */
+}
+
+.columnanewpal {
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.anewpal {
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    z-index: 1;
+    position: relative;
+   margin-top: 3%;
+}
+
+.anewpal_one {
+    color: var(--blue_gray_500) !important; 
+    margin-top: -52px; 
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.columnadoptions {
+    margin-left: 14px;
+    margin-right: 14px;
+    /* margin-bottom: 350px;*/
+    margin-top:5%; 
+    gap: 96px; 
+    display: flex;
+    /* position: relative; */
+    flex-direction: column; 
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) { 
+        gap: var(--space-2xl);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    @media only screen and (max-width: 550px) {
+        gap: 48px;
+    }
+}
+
+.columnpawpaw-1 { 
+    z-index: 2; 
+    flex: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    height: max-content;
+    margin: auto;
+}
+
+.columnd6v11p972 {
+    padding-left: 56px;
+    padding-right: 68px;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.d6v11p97243743 { 
+    height: 516px; 
+    width: 42%;
+    object-fit: contain;
+    /* margin-left: 75%;
+    margin-top: 70%; */
+    /* margin-bottom: 100%;; */
+}
+
+.rowpawpaw_one {
+    margin-top: -32px;
+    /* margin-bottom: 850px; */
+    position: relative;
+    align-self: stretch; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media only screen and (max-width: 1050px) { 
+        flex-direction: column;
+    }
+}
+
+.pawpaw_one {
+    height: 110px;
+    margin-top: 50px; 
+    z-index: 3;
+    width: 10%;
+    position: relative;
+    object-fit: contain;
+    @media only screen and (max-width: 1000px) { 
+        width: 100%;
+    }
+}
+
+.row-1 {
+    margin-left: -138px;
+    padding-top: 16px; 
+    padding-bottom: 16px;
+    margin-top: 50px; 
+    position: relative;
+    background-color: var(--blue_gray_500_33);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--gray_100_7f); 
+    @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    }
+}
+
+.rowhelpingpawsi {
+    padding-left: 110px;
+    padding-right: 56px;
+    display: flex;
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+.helpingpawsin {
+
+    letter-spacing: 5.4px; 
+    text-transform: uppercase;
+    /* margin-left: 30%; */
+}
+
+.pawpaw_three {
+    height: 110px;
+    
+    z-index: 4;
+    width: 10%;
+    position: absolute; 
+    object-fit: contain; 
+    bottom: 0.31px;
+    right: -2.69px;
+    margin: auto;
+    margin-right: 0.5%;
+}
+
+.rowfeline_pals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1050px) { 
+        flex-direction: column;
+    }
+}
+
+.rowunnamedone { 
+    gap: var(--space-sm); 
+    flex: 1;
+    display: flex; 
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    flex-direction: column;
+    padding-left: 20px; 
+    padding-right: 20px;
+    }
+}
+
+.unnamedone_one {
+    height: 408px; width: 42%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+    width: 100%;
+    }
+}
+
+.doggie_pals {
+    color: #ffffff !important; 
+    margin-bottom: 102px;
+    padding-left: var(--space-xl); 
+    padding-right: var(--space-xl);
+    letter-spacing: 2.8px; 
+    font-size: 28px; 
+    align-self: flex-end;
+    background-color: var(--blue_gray_500) !important;
+    height: 126px;
+    min-width: 344px;
+    border-radius: 50px !important;
+    @media only screen and (max-width: 1050px) { 
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 24px;
+    padding-left: 20px; padding-right: 20px;
+    }
+}
+
+.feline_pals {
+    color: #ffffff !important; 
+    margin-bottom: 8%;
+    padding-left: var(--space-xl); 
+    padding-right: var(--space-xl);
+    letter-spacing: 2.8px; 
+    font-size: 28px; 
+    align-self: flex-end;
+    background-color: var(--blue_gray_500) !important;
+    height: 126px;
+    min-width: 344px;
+    border-radius: 50px !important;
+    /* margin-bottom:6%; */
+    @media only screen and (max-width: 1050px) {
+        font-size: 26px;
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+    @media only screen and (max-width: 550px) { 
+        font-size: 24px;
+    }
+}
+
+.cattoone_one { 
+    height: 300px; 
+    margin-left: 74px; 
+    width: 18%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+    width: 100%;
+    margin-left: 0px;
+    }
+}

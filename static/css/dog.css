@@ -1,0 +1,116 @@
+.columnadoptions{
+    gap: var(--space-md);
+   
+    
+    width: 74%;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top:5%;
+}
+
+.row-3 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: var(--blue_gray_500_33);
+    display: flex;
+    justify-content: center;
+    border: 1px solid DevTools of Google Chrome(--gray_100_7f);
+}
+
+.image-3{
+    /* height: 40%;
+    width: 87%;  */
+    object-fit:fill;
+    align-items: flex-start;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    width: 207px;
+    height: 207px;
+    border: solid 4px #579497;
+    /* border: 4px solid #579497 !important; */
+    gap : var(--space-xl) !important;
+    max-width:100%;
+
+}
+
+
+
+.description-1 {
+    letter-spacing: 3.2px;
+    text-align: center;
+    align-self: stretch;
+    line-height: 40px;
+}
+
+.row_one-1 {
+    padding-left: 6px;
+    padding-right: 6px;
+    
+}
+
+
+
+.doggoggone_one {
+    height: 370px;
+    width: 40%;
+    object-fit:cover;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px) {
+    width: 100%;
+    }
+}
+
+.columndescripti {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    /* gap-: 30px; */
+    align-self: flex-start;
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-items: center; */
+    @media only screen and (max-width: 1050px) {
+    width: 100%;
+    }
+}
+
+.rowfindyour {
+    margin-top: 20px;
+    padding-left: 56px;
+    padding-right: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 322px;
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+.container-1{
+    margin-top: 54px;
+    margin-bottom: 54px;
+    display: flex;
+    gap : var(--space-xl) !important;
+    
+}
+
+.pet-link {
+    text-decoration: none; /* Removes the underline */
+}
+
+.pet-container {
+    
+    flex-direction: column; /* Stacks image above text */
+    align-items: center; /* Centers the content */
+    /* width: 100%; Adjust width as needed */
+    /* max-width: 300px; /* Optional: restricts the size of each block */
+    gap: 10px; /* Adds space between image and text */
+    margin-left: 5%;
+}
+

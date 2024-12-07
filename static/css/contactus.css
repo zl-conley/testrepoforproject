@@ -1,0 +1,211 @@
+.columnaskus {
+    gap: 90px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px){
+        gap: 67px;
+    }
+    @media only screen and (max-width: 550px) {
+        gap: 45px;
+    }
+}
+
+.newscreenbody {
+    gap: var (--space-md);
+    display: flex;
+    flex-direction: column;
+}
+
+.row-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: var(--blue_gray_500_33);
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--gray_100_7f);
+    margin-top: 5%;
+    display: flex;
+}
+
+.rowaskus {
+    padding-left: 56px;
+    padding-right: 56px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+.row_one {
+    padding-left: 24px;
+    padding-right: 24px;
+    @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+.rowgetintouch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    }
+}
+    
+.columngetintouc {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    
+.getintouch {
+    margin-left: 80px;
+    letter-spacing: 3.2px;
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    }
+}
+
+.reachusby {
+    color: var(--black_960_01) !important;
+    margin-top: 18px;
+    letter-spacing: 4px;
+    text-decoration: underline;
+}
+
+.insertphone {
+    margin-top: 50px;
+    /* margin-left: 78px; */
+    letter-spacing: 3.2px;
+    font-weight: 70 !important;
+    
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    }
+}
+    
+.reachusby_one {
+    color: var(--black_900_01) !important;
+    margin-top: 64px;
+    margin-left: 6px;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    }
+}
+
+.insertemail {
+    margin-top: 50px;
+    /* margin-left: 84px; */
+    letter-spacing: 3.2px;
+    font-weight: 70 !important;
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    } 
+}  
+
+.comevisitus {
+    color: var(--black_900_01) !important;
+    margin-top: 66px;
+    margin-left: 36px;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    }
+}
+    
+.address-3 {
+    color: var(--black_900_01) !important;
+    margin-top: 26px;
+    margin-left: 108px;
+    letter-spacing: 3.6px;
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    }
+}
+    
+.insertaddress {
+    margin-top: 50px;
+    /* margin-left: 62px; */
+    letter-spacing: 3.2px;
+    font-weight: 700 important;
+    @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    }
+}
+
+.columnpawpaw-2 {
+    padding-left: 56px;
+    padding-right: 74px;
+    gap: var(--space-md);
+    align-self: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+.pawpaw_one-1{
+    height: 110px;
+    margin-right: 254px;
+    width: 30%;
+    margin-top:5%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+    }
+}
+
+.description {
+letter-spacing: 4px;
+text-align: center;
+font-weight: 600 !important;
+align-self: stretch;
+line-height: 50px;
+margin-left: 15%;
+
+}
+
+
+
+
+.submitbutton{
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    background-color: #579497;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 4px;
+    font-size: 30px !important;
+}
+
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Inner spacing */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 30px; /* Rounded corners for inputs */
+    resize: none;
+}
+
+textarea{
+    height: 200px;
+    width: 150%;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-display: swap;
+    font-family: 'outfit';
+    src: url('../fonts/Outfit-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-display: swap;
+    font-family: 'outfit';
+    src: url('../fonts/Outfit-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-display: swap;
+    font-family: 'outfit';
+    src: url('../fonts/Outfit-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}

@@ -1,0 +1,161 @@
+.columndescripti-1 {
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px) {
+    gap: 60px;
+    }
+    @media only screen and (max-width: 550px) {
+    gap: 40px;
+    }
+}
+.stackdonate {
+    height: 580px;
+    position: relative;
+    align-content: center;
+    @media only screen and (max-width: 1050px) {
+    height: autos
+    }
+}
+.columncudlyproc {
+    flex: 1;
+}
+
+.columndonate {
+    
+    padding-right: 56px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+.view {
+    height: 125px;
+    margin-top: -90px;
+    position: relative;
+    background-color: var(--blue_gray_500_33);
+    align-self: stretch;
+    border: 1px solid var(--gray_100_7f);
+}
+
+.rowcudlyprocess {
+    margin-top: -38px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+    
+    flex-direction: column;
+    } 
+}
+    
+.cudlyprocessed {
+    height: 504px;
+    z-index: 3;
+    align-self: center;
+    width: 34%;
+    position: relative;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+    
+    width: 100%;
+    }
+}
+
+.aboutus_one {
+    letter-spacing: 6.4px;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.donatinghelps {
+    margin-left: 10%;
+   
+    position:relative;
+    color: var(--gray_600) !important;
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    }
+}
+
+.donate-1 {
+    color: #ffffff !important;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    letter-spacing: 6.4px;
+    font-size: 64px;
+    margin-left: 30%;
+    margin-top:10%;
+    position:relative;
+    background-color: var(--blue_gray_500) !important;
+    height: 242px;
+    min-width: 546px;
+    bottom: 55%;
+    right: 16%;
+    border-radius: 50px !important;
+    z-index: 4;
+    
+    @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+    }
+    
+    @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+.stackdescriptio {
+    height: 414px;
+    position: relative;
+    
+}
+ 
+.rowdescription {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 4%;
+    bottom: 0px;
+    top: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: max-content;
+    @media only screen and (max-width: 1050px) {
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+    
+.description-2 {
+    letter-spacing: 3.2px;
+    text-align: center;
+    flex: 1;
+    line-height: 40px;
+    margin-top: 115%;
+    
+}
+
+.pawpaw_one-2 { 
+    height: 178px; 
+    width: 10%; 
+    object-fit: contain; 
+    position: relative; 
+    bottom: 0px; 
+    right: 0px; 
+    left: 0px; 
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 20%;
+} 

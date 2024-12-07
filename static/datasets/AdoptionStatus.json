@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6739008f0358d552ba4a220f"
+  },
+  "Pet_ID": 1001,
+  "Availability_Status": "Available"
+},
+{
+  "_id": {
+    "$oid": "673900eb0358d552ba4a2210"
+  },
+  "Pet_ID": 1002,
+  "Availability_Status": "Adopted"
+},
+{
+  "_id": {
+    "$oid": "673901210358d552ba4a2211"
+  },
+  "Pet_ID": 1003,
+  "Availability_Status": "Pending"
+},
+{
+  "_id": {
+    "$oid": "6739014c0358d552ba4a2212"
+  },
+  "Pet_ID": 1004,
+  "Availability_Status": "Available"
+},
+{
+  "_id": {
+    "$oid": "673901750358d552ba4a2213"
+  },
+  "Pet_ID": 1005,
+  "Availability_Status": "Adopted"
+},
+{
+  "_id": {
+    "$oid": "673901a40358d552ba4a2214"
+  },
+  "Pet_ID": 1006,
+  "Availability_Status": "Available"
+},
+{
+  "_id": {
+    "$oid": "673901ca0358d552ba4a2215"
+  },
+  "Pet_ID": 1007,
+  "Availability_Status": "Pending"
+},
+{
+  "_id": {
+    "$oid": "673902120358d552ba4a2216"
+  },
+  "Pet_ID": 1008,
+  "Availability_Status": "Adopted"
+},
+{
+  "_id": {
+    "$oid": "673902450358d552ba4a2217"
+  },
+  "Pet_ID": 1009,
+  "Availability_Status": "Adopted"
+},
+{
+  "_id": {
+    "$oid": "673902760358d552ba4a2218"
+  },
+  "Pet_ID": 1010,
+  "Availability_Status": "Available"
+}]

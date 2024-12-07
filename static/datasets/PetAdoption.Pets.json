@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "6738f7920358d552ba4a2205"
+  },
+  "Pet_ID": 1001,
+  "Name": "Bella",
+  "Species": "Dog",
+  "Age": 3,
+  "Price": 150,
+  "Description": "Friendly golden retriever",
+  "Image_Url": "https://th.bing.com/th/id/OIP.51HMcxaN3fRjGzsWVzPFbQAAAA?rs=1&pid=ImgDetMain"
+},
+{
+  "_id": {
+    "$oid": "6738f9b30358d552ba4a2206"
+  },
+  "Pet_ID": 1002,
+  "Name": "Whiskers",
+  "Species": "Cat",
+  "Age": 2,
+  "Price": 80,
+  "Description": "Playful tabby",
+  "Image_Url": "https://th.bing.com/th/id/OIP.s9s7w2cNm1QURIShGnnWdwHaDp?rs=1&pid=ImgDetMain"
+},
+{
+  "_id": {
+    "$oid": "6738fb140358d552ba4a2207"
+  },
+  "Pet_ID": 1003,
+  "Name": "Max",
+  "Species": "Dog",
+  "Age": 5,
+  "Price": 200,
+  "Description": "Energetic husky",
+  "Image_Url": "https://th.bing.com/th/id/OIP.mpINNchAJHyJ_xhQtRY5cQHaE7?rs=1&pid=ImgDetMain"
+},
+{
+  "_id": {
+    "$oid": "6738fbc80358d552ba4a2208"
+  },
+  "Pet_ID": 1004,
+  "Name": "Luna",
+  "Species": "Cat",
+  "Age": 1,
+  "Price": 70,
+  "Description": "Calico with green eyes",
+  "Image_Url": "https://th.bing.com/th/id/OIP.PTIiX4HWlnuz9LB8-JtcWwHaER?rs=1&pid=ImgDetMain"
+},
+{
+  "_id": {
+    "$oid": "6738fc6f0358d552ba4a2209"
+  },
+  "Pet_ID": 1005,
+  "Name": "Shadow",
+  "Species": "Dog",
+  "Age": 4,
+  "Price": 120,
+  "Description": "Calm black labrador",
+  "Image_Url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Black_labrador_puppy_(2754032769).jpg"
+},
+{
+  "_id": {
+    "$oid": "6738fd400358d552ba4a220a"
+  },
+  "Pet_ID": 1006,
+  "Name": "Daisy",
+  "Species": "Rabbit",
+  "Age": 1,
+  "Price": 25,
+  "Description": "White rabbit with soft fur",
+  "Image_Url": "https://wallpaperaccess.com/full/3761639.jpg"
+},
+{
+  "_id": {
+    "$oid": "6738fdfa0358d552ba4a220b"
+  },
+  "Pet_ID": 1007,
+  "Name": "Oscar",
+  "Species": "Bird",
+  "Age": 3,
+  "Price": 50,
+  "Description": "Parrot with vibrant feathers",
+  "Image_Url": "https://th.bing.com/th/id/OIP.CQSIH8K2rzWh3rBaZLDRPAHaFo?rs=1&pid=ImgDetMain"
+},
+{
+  "_id": {
+    "$oid": "6738fe8d0358d552ba4a220c"
+  },
+  "Pet_ID": 1008,
+  "Name": "Rocky",
+  "Species": "Dog",
+  "Age": 6,
+  "Price": 180,
+  "Description": "Loyal German shepherd",
+  "Image_Url": "https://i.pinimg.com/originals/95/39/06/953906a567dead5aa7b4dc714b4969bd.jpg"
+},
+{
+  "_id": {
+    "$oid": "6738ff420358d552ba4a220d"
+  },
+  "Pet_ID": 1009,
+  "Name": "Coco",
+  "Species": "Cat",
+  "Age": 4,
+  "Price": 90,
+  "Description": "Siamese with blue eyes",
+  "Image_Url": "https://th.bing.com/th/id/OIP.69g7olFxFMg6umVqfdmv_gHaId?rs=1&pid=ImgDetMain"
+},
+{
+  "_id": {
+    "$oid": "6738ffcf0358d552ba4a220e"
+  },
+  "Pet_ID": 1010,
+  "Name": "Tweety",
+  "Species": "Bird",
+  "Age": 2,
+  "Price": 30,
+  "Description": "Small canary with bright yellow feathers",
+  "Image_Url": "https://th.bing.com/th/id/R.40b982c880ea9e8dbf0a7d557b75d3e6?rik=l4ObmxvbQxB7XQ&pid=ImgRaw&r=0&sres=1&sresct=1"
+}]

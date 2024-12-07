@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="'theme-color'" content="#000000">
+    <meta name="description" content="About Us">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='css/home.css') }}">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='css/index.css') }}">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='css/font.css') }}">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='css/style.css') }}">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='css/components.css') }}">
+</head>
+<body>
+    <div class="about-us">
+        <div class="columngeminige-1">
+            <header class="headergeminigen">
+                <div class="headergeminigen-2">
+                    <a href="{{url_for('homepage')}}" class="geminigenerate">
+                    <img src="{{ url_for('static', filename='images/logo-1.png') }}" alt="Geinigerate" class="geminigenerate">
+                    
+                    </a>
+                    <div class="rowadopt">
+                        <ul class ="rowaboutus">
+                            <li>
+                                <a href="{{url_for('adopt')}}">
+                                    <h4 class="ui heading size-headingxs">Adopt</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('aboutus')}}">
+                                    <h4 class = "ui heading size-headingxs">About Us</h4>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="{{url_for('contact')}}">
+                                    <h4 class = "ui heading size-headingxs">Contact Us</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('adoptionprocess')}}">
+                                    <h4 class = "ui heading size-headingxs">Adoption Process</h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+                <div class="columnapawproce-1" >
+                    <div class="columnpawpaw">
+                        <div class="stackanewpal">
+                            <div class="column">
+                                <div class="columnanewpal">
+                                    <h1 class="anewpal ui heading size-headingmd">A new pal awaits</h1>
+                                    <!-- <h2 class="anewpal_one ui heading size-headingmd">A new pal awaits</h2> -->
+                                    <div class="columnadoptions">
+                                        <button  class="adoptions ui button blue_gray_560 size-sm fill round">Adoptions</button>
+                                        <button  class="adoptions ui button blue_gray_560 size-sm fill round">Donate</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="columnpawpaw-1">
+                                <div class="columnd6v11p972 container-xs">
+                                    <img src="./static/images/cats and dog image.png" alt="D6v11p97243743" class="d6v11p97243743" />
+                                    
+                                </div>
+                                <div class="rowpawpaw_one">
+                                    <img src="./static/images/paw paw_processed 1 left.png" alt="Pawpaw" class="pawpaw_one" />
+                                    <img src="./static/images/paw paw_processed 1 right.png" alt="Pawpaw" class="pawpaw_three" />
+                                    <div class="row-1">
+                                        <div class="rowhelpingpawsi">
+                                            <h3 class="helpingpawsin ui heading size-headingmd">helping paws in Columbus</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rowfeline_pals">
+                            <div class="rowunnamedone">
+                                <img src="./static/images/unnamed1_processed 1.png" alt="Unnamedone" class="unnamedone_one" />
+                                <button onclick="window.location.href='{{ url_for('dog1') }}'" class="doggie_pals ui button blue gray 500 size-sm fill round">Doggie Pals</button>
+                            </div>
+                            <button onclick="window.location.href='{{ url_for('cat') }}'" class="feline_pals ui button blue gray 500 size-sm fill round">Feline Pals</button>
+                            <img src="./static/images/catto 1.png" alt="Cattoone" class="cattoone_one" />
+                        </div>
+                    </div>
+                </div> 
+     
+     
+                <footer class="footer">
+                    <div class="stackphone-1">
+                        <div class="column_one">
+                            <img src="{{ url_for('static', filename='images/Rectangle_5.png') }}" alt="Image-1" class="image-1">
+                            <img src="{{ url_for('static', filename='images/Rectangle_6.png') }}" alt="Image" class="image">
+                        </div>
+                        <div class="columnphone-1">
+                            <h1 class="phone-1 ui heading size-headinglg">Phone</h1>
+                            <p class = "phoneline ui text size-textxs">555-123-4567</p>
+                        </div>
+                        <div class="flex-col-end-center columnmondayfri">
+                            <h1 class="mondayfriday-1 ui heading size-headinglg">Monday to Friday</h1>
+                            <p class = "time ui text size-textxs">8:00am to 10:00pm</p>
+                            <h1 class="weekday ui heading size-headinglg">Saturday & Sunday</h1>
+                            <p class = "time ui text size-textxs">11:00am to 4:00pm</p>
+                            <h1 class="email ui heading size-headinglg">Email</h1>
+                            <p class = "time ui text size-textxs">info@columbuspethelp.com</p>
+                        </div>
+                        
+                        <img src="{{ url_for('static', filename='images/a paw_processed 1.png') }}" alt="Apawprocessed" class="apawprocessed-1">
+                        <div class="rowgeminigenera-1">
+                            
+                            <img src="{{ url_for('static', filename='images/cat-and-dog-image-footer.png') }}" alt="Geinigerate" class="geminigenerate-3">
+                        </div>
+                        <h1 class="address ui heading size-headinglg">Address</h1>    
+                        <p class = "addressline-1 ui text size-textxs">123 Petes St,Columbus,<br>Georgia</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

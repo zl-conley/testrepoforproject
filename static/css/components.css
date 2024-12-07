@@ -1,0 +1,163 @@
+.ui.button.round {
+    border-radius: var(--radius-xs);
+}
+
+.ui.button.size-xs {
+    height: 126px;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    font-size: 36px;
+}
+
+.ui.button.size-xl {
+    height: 242px;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    font-size: 64px;
+}
+
+.ui.button.size-lg {
+    height: 146px;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    font-size: 32px;
+    
+}
+    
+.ui.button.size-md {
+    height: 126px;
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+    font-size: 40px;
+    
+}
+    
+.ui.button.size-sm {
+    height: 126px;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    font-size: 28px;
+    
+}
+    
+.ui.button.fill.blue_gray_500 {
+    background-color: var(--blue_gray_500);
+    color: var(--white_a700);
+    
+}
+
+.ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: var(--white_a700);
+    font-weight: 600;
+    background-color: var(--blue_gray_500);
+    border-radius: var(--radius-xs);
+}
+
+.ui.text.size-textxs {
+    font-size: 32px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 28px;
+    }
+}
+
+.ui.text.size-texts {
+    font-size: 46px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px) {
+    font-size: 38px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 36px;
+    }
+}
+
+.ui.text {
+    color: var(--gray_600);
+    font-family: Outfit;
+}
+
+.ui.heading.size-headingxs {
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: flex-end;
+    
+    color: var(--gray_600);
+    @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+    }
+    
+
+}
+
+.ui.heading.size-headings {
+    font-size: 32px;
+    font-weight: 600;
+    @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 28px;
+    }
+}
+
+.ui.heading.size-headingmd {
+    font-size: 36px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+    font-size: 34px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 32px;
+    }
+}
+
+.ui.heading.size-headinglg {
+    font-size: 40px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+    font-size: 38px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 36px;
+    }
+}
+.ui.heading.size-headingxl {
+    font-size: 5px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+    font-size: 46px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 4px;
+    }
+}
+.ui.heading.size-heading2xl {
+    font-size: 64px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+    }
+}
+
+.ui.heading {
+    color: var(--gray_600);
+    font-family: Outfit;
+}
+
+.container-xs {
+    max-width: 1226px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
